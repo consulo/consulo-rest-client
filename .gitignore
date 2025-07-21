@@ -16,3 +16,6 @@ out/
 .kotlin
 jflex-1.9.2.jar
 idea-flex.skeleton
+
+.consulo
+target/

@@ -1,0 +1,404 @@
+add:
+    text: Add
+add.to.http:
+    text: Add to Http Request...
+address.desc:
+    text: Generate complete address
+alphabetic.desc:
+    text: 'Usage: {0}(8), sample value: gwqaRJXx'
+alphanumeric.desc:
+    text: 'Usage: {0}(8), sample value: D4Qt8SZ9'
+app.desc:
+    text: Generate app name
+auto.encoding.desc:
+    text: Automatic encoding of request parameters and body into ASCII format for x-www-form-urlencoded requests
+available.variables:
+    text: Available Variables
+base64.convert.to.file:
+    text: 'Finished convert base64 and save to file:'
+binary.body.desc:
+    text: 'Binary data(size: {0}, original file: {1})'
+binary.data:
+    text: binary data
+book.desc:
+    text: Generate title
+bool.desc:
+    text: Generate boolean value
+builtin.variable:
+    text: Builtin variable
+call.dubbo.name:
+    text: 'Call dubbo method name: {0}'
+call.dubbo.param.typeNames:
+    text: 'Call dubbo method param type names: {0}'
+call.dubbo.params:
+    text: 'Call dubbo method params: {0}'
+close:
+    text: Close
+company.desc:
+    text: Generate company name
+compare.with:
+    text: Compare with
+connect.succeed:
+    text: Connect succeed
+connect.timeout.desc:
+    text: 'Http and websocket connect timeout(positive number, unit: seconds)'
+connected.failed:
+    text: 'Connected failed:'
+connecting:
+    text: Connecting
+content.length.error:
+    text: Can''t have Content-Length header!
+content.truncated:
+    text: The content is too long and has been truncated for display
+convert.not.supported:
+    text: Not support ws or dubbo request
+convert.to.curl.cp:
+    text: Convert http request to curl and copy
+converted.tip:
+    text: 'Converted and Copied to clipboard:'
+create.env.json.file:
+    text: Create env.json file
+create.env.private.json.file:
+    text: Create env.private.json file
+create.http.req:
+    text: Create http request
+creating.file:
+    text: Creating temporary http file...
+curl.form.data.no.value:
+    text: 'invalid form data(no value): {0}'
+curl.incomplete.option:
+    text: 'incomplete option: {0}'
+curl.invalid.header:
+    text: 'invalid header: {0}'
+curl.invalid.url:
+    text: 'invalid url: {0}'
+curl.is.not.curl:
+    text: 'not curl string: {0}'
+curl.method.not.supported:
+    text: 'method not supported: {0}'
+curl.no.url:
+    text: no url
+curl.unknown.option:
+    text: 'unknown option: {0}'
+cy.body:
+    text: Copy request/response body to clipboard
+date.desc:
+    text: 'Generates the date, usage: {0}(0), 0 means today, 1 means tomorrow and so on, sample value: 2025-02-02'
+datetime.desc:
+    text: 'generates the current datetime for default timezone, sample value: 2023-08-23 14:35:32'
+download.abort:
+    text: Download aborted!
+download.not.finish:
+    text: Download not finished yet!
+dubbo.all.blank:
+    text: Header {0} and {1} can''t be blank at the same time!
+dubbo.downloaded:
+    text: Dubbo dependencies have been successfully downloaded!
+dubbo.downloaded.error:
+    text: 'Downloaded dubbo dependencies error, please try again, error msg:'
+dubbo.downloading:
+    text: Downloading dubbo dependencies...
+dubbo.miss.header:
+    text: Missing {0} header!
+dubbo.req:
+    text: Dubbo requests(Interface)
+dubbo.req.name:
+    text: Dubbo requests(Interface name)
+dubbo.requests:
+    text: Dubbo requests
+edit:
+    text: Edit
+env:
+    text: 'env:'
+env.desc:
+    text: System environment variables(lowest priority)
+env.tooltip:
+    text: Read http-client.env.json, http-client.private.env.json to build environment
+environment.variable.desc:
+    text: environment file variables(lower priority)
+eval.desc:
+    text: 'Evaluates custom JavaScript expressions, Usage: {0}(''''1 + 1'''')'
+exec.desc:
+    text: 'Executes shell commands, Usage: {0}(''''dir'''')'
+failed:
+    text: Failed
+file.created:
+    text: 'The environment file was successfully created:'
+file.exists:
+    text: Environment file already exist!
+file.global.desc:
+    text: http file global variables(Highest priority)
+file.not.exists:
+    text: 'File does not exist: {0}'
+float.desc:
+    text: 'Usage: {0}(0, 80), means generate the number of range [0, 80), sample value: 31.021547'
+fold.headers.default:
+    text: Fold Headers of Request/Response by Default
+folder.not.exist:
+    text: 'Folder does not exist: {0}'
+get.req:
+    text: GET requests
+get.requests:
+    text: GET requests
+global:
+    text: global
+global.handler:
+    text: Global handler
+global.variable:
+    text: Global variable
+hero.desc:
+    text: Generate hero name
+hexadecimal.desc:
+    text: 'Usage: {0}(100000), sample value: 8F7525'
+historyFolder.desc:
+    text: Means .idea/httpClient
+http.example.desc:
+    text: Opens a built-in collection of http request
+http.examples:
+    text: Examples
+http.file:
+    text: 'http file:'
+imageToBase64.desc:
+    text: 'Usage: {0}(''''The absolute or relate path of image file''''), convert file to base64 string'
+import.desc:
+    text: Import local file, like javascript file
+import.from.curl:
+    text: Import from curl
+inspection.http.display.name:
+    text: Variable problems
+inspection.http.group.name:
+    text: Http
+integer.desc:
+    text: 'Usage: {0}(0, 80), means generate the number of range [0, 80), sample value: 68'
+intention.http.category.name:
+    text: HttpRequest/Env
+interface.not.resolved:
+    text: 'Can''''t resolve interface: {0} in module {1} !'
+interface.not.resolved1:
+    text: 'Can''''t resolve interface: {0} in project {1} !'
+isoTimestamp.desc:
+    text: 'generates the current timestamp in ISO 8601 format for default timezone, sample value: 2023-08-23T14:35:32.495Z'
+js.download:
+    text: Downloading js libraries...
+js.download.error:
+    text: 'Downloaded js libraries error, please try again, error msg:'
+js.downloaded:
+    text: Js libraries have been successfully downloaded!
+js.downloading:
+    text: Js libraries not loaded yet, Start downloading libraries. When finished, please try again.
+js.variable.desc:
+    text: js global variables(middle priority)
+lack.boundary:
+    text: '{0} header missing boundary!'
+method.not.exists:
+    text: Method {0} not exist!
+method.not.found:
+    text: 'According to the method param {0}, can''''t match any method: {1}!'
+method.unsupported:
+    text: 'Method not supported: {0}'
+missing.header:
+    text: Missing Method header!
+mock.server.error:
+    text: 'Server already closed, exception info: {0}'
+mock.server.receive:
+    text: 'Receive request, the port is: {0}, client Request:'
+mock.server.res:
+    text: 'Server Response:'
+mock.server.start:
+    text: 'Server started, the listening port is: {0}'
+multipart.field:
+    text: Multipart field
+mvnTarget.desc:
+    text: Module target folder
+name.desc:
+    text: Generate user name
+nation.desc:
+    text: Generate national capital
+new.action.name:
+    text: New...
+no.data.available:
+    text: No data available
+no.env:
+    text: No environment
+no.log.desc:
+    text: Prevent requests from being saved to the request history. This is helpful when the request contains some sensitive data that you do not want to record.
+no.request:
+    text: Can''t find related request!
+no.res.body.files:
+    text: No historical response file exists
+not.defined:
+    text: <not defined>
+not.file:
+    text: '{0} is not file!'
+not.folder:
+    text: 'Not folder: {0}'
+notification.group.httprequest.sticky_balloon:
+    text: HttpRequest
+numeric.desc:
+    text: 'Usage: {0}(8), sample value: 23145739'
+param.not.resolved:
+    text: 'Can not resolve param: {0}'
+pick.desc:
+    text: 'Pick one at random from the given options, Usage: {0}(23, 46) or {1}(''''Jack'''', ''''Rose'''')'
+post.js.executed.result:
+    text: post js executed result
+post.json.req:
+    text: POST json body
+post.multi.file.req:
+    text: POST form with a file field
+post.multi.text.req:
+    text: POST form with a text field
+post.param.req:
+    text: POST parameters body
+post.requests:
+    text: POST requests
+pre.desc:
+    text: Pre js executed result
+pre.handler:
+    text: Pre request handler
+pre.request:
+    text: pre request
+preview:
+    text: Preview
+projectRoot.desc:
+    text: Project root folder
+psi.invalid:
+    text: Request psi element is invalid, skipped
+randomInt.desc:
+    text: 'Generate the number of range [0, 1000), sample value: 123'
+read.timeout.desc:
+    text: 'Http and websocket read timeout(positive number, unit: seconds)'
+readString.desc:
+    text: 'Usage: {0}(''''The absolute or relate path of image file''''), read file content as string'
+repeat.desc:
+    text: 'Repeat the given option, Usage: {0}(''''hello'''', 3)'
+req:
+    text: 'request:'
+req.failed:
+    text: '{0} request failed, exception: {1}'
+req.header.add:
+    text: 'Request header: {0} was added: {1}'
+req.header.set:
+    text: 'Request header: {0} was set to: {1}'
+req.interrupted:
+    text: The request {0} has been interrupted!
+req.size:
+    text: 'Size: {0}'
+reqBody.unknown:
+    text: 'Unknown type: {0}'
+request.body:
+    text: Request body
+request.success:
+    text: request success
+request.with.authorization:
+    text: Request with Authorization
+request.with.tests.and.scripts:
+    text: Request with Tests and Scripts
+require.desc:
+    text: Introduce javascript library, will be downloaded and cached
+res.binary.data:
+    text: 'Binary data(size: {0})'
+res.desc:
+    text: 'Status: {0}, time: {1}ms, size: {2}'
+res.render.result:
+    text: 'Response body rendered result:'
+response.handler:
+    text: Response handler
+response.presentations:
+    text: Response presentations
+response.status.desc:
+    text: Mock Server response status code
+run.all.tooltip:
+    text: Run all requests of the file(think time is 2 seconds)
+save.failed:
+    text: Save to file failed
+save.to.file:
+    text: Response has been saved to file
+scroll.to.end:
+    text: Scroll to End
+scroll.to.top:
+    text: Scroll to Top
+search.api:
+    text: Search Api
+send.request:
+    text: Send request
+show.cryptojs.file:
+    text: show build-in CryptoJS library file
+show.line.num:
+    text: Show Line Numbers
+show.req.history:
+    text: Show http requests history
+show.variables:
+    text: show variables
+skip.req:
+    text: Skipped ws request
+soft.wrap:
+    text: Soft-Wrap
+start.download:
+    text: Dubbo dependencies not loaded yet, Start downloading required dependencies. When finished, please try again.
+static.folder.desc:
+    text: Static resources folder
+stop.running:
+    text: Stop running
+succeed:
+    text: Succeed
+switch.environment:
+    text: Switch environment
+system.desc:
+    text: System property variables(lowest priority)
+tab.name.error:
+    text: 'Request name contains illegal param, please fix: {0}'
+template.not.execute:
+    text: Http template file only as an example, not support execute!
+text.data:
+    text: text data
+timeout.desc:
+    text: 'Dubbo connect timeout(positive number, unit: milliseconds)'
+timestamp.desc:
+    text: 'Generates the current Unix timestamp, sample value: 1663362218'
+timestampDate.desc:
+    text: 'Generates the date Unix timestamp, usage: {0}(0), 0 means today, 1 means tomorrow and so on, sample value: 1644214400000'
+timestampFull.desc:
+    text: 'Generates the date Unix timestamp, usage: {0}(0, 15, 30), first param 0 means today, 1 means tomorrow and so on, second param 15 means three p.m., third param 30 means half past, sample value: 1644214400000'
+university.desc:
+    text: Generate university name
+unsolved.global.variable:
+    text: Create variable unsolved in global variable
+unsolved.handler.variable:
+    text: Create variable unsolved in {0} handler
+unsolved.variable:
+    text: Create variable unsolved in {0} environment file
+url.description:
+    text: Create request
+url.name:
+    text: Create Url
+user.defined.variable:
+    text: User defined variable
+uuid.desc:
+    text: 'Called UUID.randomUUID() and remove the - symbol, sample value: 6b4838e0857248ae8ca0b9be58ff5aeb'
+value:
+    text: 'The value is:'
+value.global.set:
+    text: 'was set to(global scope):'
+value.req.set:
+    text: 'was set to(request scope):'
+variable:
+    text: Variable
+variable.unresolved:
+    text: Variable {0} unresolved
+view.settings:
+    text: View Settings
+websocket.requests:
+    text: WebSocket requests
+ws.closed:
+    text: ws connection already closed
+ws.disconnected:
+    text: The ws connection has been disconnected
+ws.failed:
+    text: ws connect failed
+ws.req:
+    text: WebSocket requests
+ws.send:
+    text: Send ws message
+ws.tooltip:
+    text: Please input ws message
